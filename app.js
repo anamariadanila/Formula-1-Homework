@@ -208,13 +208,6 @@ const formattedData = mockData.sort((p1, p2) =>
 const container = document.querySelector(".cards");
 let racingCards = "";
 
-const increaseScore = (event) => {
-  const score = event.target.parentElement.querySelector(
-    ".points .number-points"
-  );
-  score.innerHTML = Number(score.innerHTML) + 1;
-};
-
 formattedData.forEach((racer) => {
   racingCards += `
            <div class="container">
@@ -238,7 +231,6 @@ formattedData.forEach((racer) => {
              <img
                class="flag"
                src="https://www.formula1.com/content/dam/fom-website/flags/Netherlands.jpg.transform/2col/image.jpg"
-              
              />
            </div>
            <p class="team">${racer.team}</p>
@@ -258,6 +250,13 @@ formattedData.forEach((racer) => {
 });
 
 container.innerHTML = racingCards;
+
+const increaseScore = (event) => {
+  const score = event.target.parentElement.querySelector(
+    ".points .number-points"
+  );
+  score.innerHTML = Number(score.innerHTML) + 1;
+};
 
 container.querySelectorAll("#increment-score").forEach((btn) => {
   btn.addEventListener("click", (e) => increaseScore(e));
