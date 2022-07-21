@@ -1,0 +1,182 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0.2px;
+  background: #fff;
+}
+
+@font-face {
+  font-family: "Formula1-Black";
+  src: url(fonts/Formula1-Black.ttf);
+}
+
+@font-face {
+  font-family: "Formula1-Bold";
+  src: url(fonts/Formula1-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Formula1-Regular";
+  src: url(fonts/Formula1-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Formula1-Wide";
+  src: url(fonts/Formula1-Wide.ttf);
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.container {
+  margin: 20px;
+  width: 350px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: white;
+  border: 2.5px solid black;
+  border-left: none;
+  border-bottom: none;
+  padding: 10px 10px 0 0;
+  border-radius: 0 10px;
+  max-width: 600px;
+  flex-wrap: wrap;
+}
+
+.general-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #949498;
+  margin-bottom: 10px;
+}
+
+.rank {
+  font-family: "Formula1-Black";
+  font-size: 2.625rem;
+  line-height: 3rem;
+}
+
+.number-points {
+  font-family: "Formula1-Wide";
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 3px;
+}
+
+.pts {
+  background-color: #000;
+  border-radius: 3px;
+  color: #fff;
+  margin: 0 0 0 auto;
+  padding: 1px 0 0;
+  text-align: center;
+  width: 70px;
+  font-family: "Formula1-Wide";
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
+.vertical-line {
+  height: 35px;
+  width: 5px;
+  margin-right: 5px;
+  display: block;
+  position: absolute;
+}
+
+.bg-blue {
+  background-color: #3671c6;
+}
+
+.bg-red {
+  background-color: #f91536;
+}
+
+.first-name {
+  box-sizing: border-box;
+  font-family: "Formula1-Regular";
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  display: flex;
+  position: relative;
+  left: 15px;
+}
+
+.last-name {
+  font-family: "Formula1-Bold";
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  position: relative;
+  left: 15px;
+}
+
+.pilot-info {
+  display: flex;
+}
+
+.flag {
+  display: flex;
+  margin-left: auto;
+  bottom: 30px;
+  height: 20%;
+  width: 50px;
+  border: 1px solid #949498;
+  border-radius: 5px;
+}
+
+.team {
+  font-family: "Formula1-Regular";
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  color: #67676d;
+}
+
+.driver-info {
+  height: 170px;
+  background-image: url(https://www.formula1.com/etc/designs/fom-website/images/patterns/plus-x1.png);
+  display: flex;
+  position: relative;
+}
+
+.driver-picture {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  bottom: 29px;
+  margin-left: auto;
+}
+
+.driver-number {
+  height: 60px;
+  width: 95px;
+  background-color: white;
+  position: absolute;
+  bottom: -1px;
+}
+
+.btn {
+  border: 2px solid lightgrey;
+  background-color: #fff;
+  font-size: 16px;
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 999px;
+  transform: translate(200%, 0%);
+}
