@@ -1,4 +1,4 @@
-export const mockData = [
+const mockData = [
   {
     firstName: "Lewis",
     lastName: "Hamilton",
@@ -8,6 +8,8 @@ export const mockData = [
     image: "https://i.ibb.co/Fs2XJFn/hamilton.png",
     country: "GB",
     hex: "#6CD3BF",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LEWHAM01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/United%20Kingdom.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "George",
@@ -18,6 +20,8 @@ export const mockData = [
     image: "https://i.ibb.co/f4zt6Jq/russel.png",
     country: "GB",
     hex: "#6CD3BF",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/GEORUS01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/United%20Kingdom.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "Max",
@@ -28,6 +32,8 @@ export const mockData = [
     image: "https://i.ibb.co/BcBmc14/verstappen.png",
     country: "NL",
     hex: "#3671C6",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/MAXVER01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/Netherlands.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "Sergio",
@@ -38,6 +44,8 @@ export const mockData = [
     image: "https://i.ibb.co/pRTZDMg/perez.png",
     country: "MX",
     hex: "#3671C6",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/SERPER01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/Mexico.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "Lando",
@@ -48,6 +56,8 @@ export const mockData = [
     image: "https://i.ibb.co/pRK4GW5/norris.png",
     country: "GB",
     hex: "#3671C6",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LANNOR01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/United%20Kingdom.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "Daniel",
@@ -58,6 +68,8 @@ export const mockData = [
     image: "https://i.ibb.co/Jtbwrd0/ricardo.png",
     country: "AU",
     hex: "#3671C6",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/DANRIC01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/Australia.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "Fernando",
@@ -68,6 +80,8 @@ export const mockData = [
     image: "https://i.ibb.co/jMLB0zJ/alonso.png",
     country: "ES",
     hex: "#2392D1",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/FERALO01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/Spain.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "Esteban",
@@ -78,6 +92,8 @@ export const mockData = [
     image: "https://i.ibb.co/QdDMyZv/ocon.png",
     country: "FR",
     hex: "#2392D1",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/ESTOCO01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/France.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "Lance",
@@ -88,6 +104,8 @@ export const mockData = [
     image: "https://i.ibb.co/WgpkS4f/stroll.png",
     country: "CA",
     hex: "#358C75",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LANSTR01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/Canada.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "Sebastian",
@@ -98,6 +116,8 @@ export const mockData = [
     image: "https://i.ibb.co/xY4WYBc/vettel.png",
     country: "DE",
     hex: "#358C75",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/SEBVET01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/Germany.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "Charles",
@@ -108,6 +128,8 @@ export const mockData = [
     image: "https://i.ibb.co/ZWm9cdX/leclerc.png",
     country: "MC",
     hex: "#F91437",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/CHALEC01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/Monaco.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "Carlos",
@@ -118,6 +140,8 @@ export const mockData = [
     image: "https://i.ibb.co/JRVmVw4/sainz.png",
     country: "ES",
     hex: "#F91437",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/CARSAI01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/Spain.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "Pierre",
@@ -128,6 +152,8 @@ export const mockData = [
     image: "https://i.ibb.co/R6nYsRj/gasly.png",
     country: "FR",
     hex: "#5E8FAA",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/PIEGAS01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/France.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "Yuki",
@@ -138,6 +164,8 @@ export const mockData = [
     image: "https://i.ibb.co/x6VcZDs/tsunoda.png",
     country: "JP",
     hex: "#5E8FAA",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/YUKTSU01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/Japan.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "Valtteri",
@@ -148,6 +176,8 @@ export const mockData = [
     image: "https://i.ibb.co/Qf0fBmX/bottas.png",
     country: "FI",
     hex: "#C92C4A",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/VALBOT01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/Finland.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "Guanyu",
@@ -158,6 +188,8 @@ export const mockData = [
     image: "https://i.ibb.co/9hQGWzV/zsou.png",
     country: "CN",
     hex: "#C92C4A",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/GUAZHO01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/China.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "Mick",
@@ -168,6 +200,8 @@ export const mockData = [
     image: "https://i.ibb.co/yRntVLX/schumacher.png",
     country: "DE",
     hex: "#B7BBBD",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/MICSCH02.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/Germany.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "Kevin",
@@ -178,6 +212,8 @@ export const mockData = [
     image: "https://i.ibb.co/27YnfXb/magnussen.png",
     country: "DK",
     hex: "#B7BBBD",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/KEVMAG01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/Denmark.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "Nicholas",
@@ -188,6 +224,8 @@ export const mockData = [
     image: "https://i.ibb.co/27mk9VC/latifi.png",
     country: "CA",
     hex: "#37BFDC",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/NICLAF01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/Canada.jpg.transform/2col/image.jpg",
   },
   {
     firstName: "Alexander",
@@ -198,5 +236,22 @@ export const mockData = [
     image: "https://i.ibb.co/M6RWgFd/albon.png",
     country: "PH",
     hex: "#37BFDC",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/ALEALB01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/Thailand.jpg.transform/2col/image.jpg",
+  },
+  {
+    firstName: "Nico",
+    lastName: "Hulkenberg",
+    number: 27,
+    team: "Aston Martin",
+    points: 0,
+    image:
+      "https://www.formula1.com/content/dam/fom-website/drivers/N/NICHUL01_Nico_Hulkenberg/nichul01.png.transform/2col-retina/image.png",
+    country: "DE",
+    hex: "#358C75",
+    img: "https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/NICHUL01.png.transform/2col/image.png",
+    flag: "https://www.formula1.com/content/dam/fom-website/flags/Germany.jpg.transform/2col/image.jpg",
   },
 ];
+
+export default mockData;
